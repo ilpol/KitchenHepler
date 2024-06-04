@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pembantu Dapur</string>
+    <string name="title_home">resepi</string>
+    <string name="title_fridge">Peti ais</string>
+    <string name="title_shopping_list">Senarai membeli-belah</string>
+    <string name="title_notifications">Pinggan</string>
+    <string name="add_new_item_title">Masukkan tajuk</string>
+    <string name="add_new_item_description">Masukkan huraian</string>
+    <string name="add_new_item_add_item_text">Tambah</string>
+    <string name="add_photo_text">Foto</string>
+    <string name="add_new_item_speech_recognition">Suara</string>
+    <string name="take_picture">Ambil gambar</string>
+    <string name="deleteItemCaution">Padamkan produk?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="changeTimeButtonText">Mula/berhenti</string>
+    <string name="start">Mulakan</string>
+    <string name="stop">Berhenti</string>
+    <string name="timer">Pemasa</string>
+    <string name="stopwatch">Jam randik</string>
+    <string name="clearTimeButtonText">Tetapkan</string>
+    <string name="clear">Tetapkan semula</string>
+    <string name="timerTitle">Pemasa</string>
+    <string name="timerTabTitle">Pemasa</string>
+    <string name="stopWatchTitle">Jam randik</string>
+    <string name="add_to_fridge_from_notes_button">Masukkan ke dalam peti ais</string>
+    <string name="add_to_notes_from_fridge_button">Tambahkan ke senarai beli-belah</string>
+    <string name="product">Produk</string>
+    <string name="expired">tamat tempoh</string>
+    <string name="checkTheFridge">Periksa peti ais</string>
+</resources>

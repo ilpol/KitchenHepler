@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Người giúp việc Kithen</string>
+    <string name="title_home">Công thức nấu ăn</string>
+    <string name="title_fridge">Tủ lạnh</string>
+    <string name="title_shopping_list">Danh sách mua sắm</string>
+    <string name="title_notifications">Đĩa</string>
+    <string name="add_new_item_title">Nhập tiêu đề</string>
+    <string name="add_new_item_description">Nhập mô tả</string>
+    <string name="add_new_item_add_item_text">Thêm vào</string>
+    <string name="add_photo_text">Hình chụp</string>
+    <string name="add_new_item_speech_recognition">Tiếng nói</string>
+    <string name="take_picture">Chụp ảnh</string>
+    <string name="deleteItemCaution">Xóa một sản phẩm?</string>
+    <string name="yes">Đúng</string>
+    <string name="no">KHÔNG</string>
+    <string name="changeTimeButtonText">Băt đâu dưng</string>
+    <string name="start">Bắt đầu</string>
+    <string name="stop">Dừng lại</string>
+    <string name="timer">hẹn giờ</string>
+    <string name="stopwatch">đồng hồ bấm giờ</string>
+    <string name="clearTimeButtonText">Bộ</string>
+    <string name="clear">Cài lại</string>
+    <string name="timerTitle">hẹn giờ</string>
+    <string name="timerTabTitle">hẹn giờ</string>
+    <string name="stopWatchTitle">đồng hồ bấm giờ</string>
+    <string name="add_to_fridge_from_notes_button">Thêm vào tủ lạnh</string>
+    <string name="add_to_notes_from_fridge_button">Thêm vào danh sách mua sắm</string>
+    <string name="product">Sản phẩm</string>
+    <string name="expired">hết hạn</string>
+    <string name="checkTheFridge">Kiểm tra tủ lạnh</string>
+</resources>

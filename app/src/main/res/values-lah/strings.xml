@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ਕਿਥਨ ਸਹਾਇਕ</string>
+    <string name="title_home">ਪਕਵਾਨਾਂ</string>
+    <string name="title_fridge">ਫਰਿੱਜ</string>
+    <string name="title_shopping_list">ਖਰੀਦਦਾਰੀ ਸੂਚੀ</string>
+    <string name="title_notifications">ਪਲੇਟ</string>
+    <string name="add_new_item_title">ਸਿਰਲੇਖ ਦਰਜ ਕਰੋ</string>
+    <string name="add_new_item_description">ਇੱਕ ਵੇਰਵਾ ਦਰਜ ਕਰੋ</string>
+    <string name="add_new_item_add_item_text">ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="add_photo_text">ਤਸਵੀਰ</string>
+    <string name="add_new_item_speech_recognition">ਆਵਾਜ਼</string>
+    <string name="take_picture">ਇੱਕ ਫੋਟੋ ਲਵੋ</string>
+    <string name="deleteItemCaution">ਕੀ ਕੋਈ ਉਤਪਾਦ ਮਿਟਾਉਣਾ ਹੈ?</string>
+    <string name="yes">ਹਾਂ</string>
+    <string name="no">ਨੰ</string>
+    <string name="changeTimeButtonText">ਸ਼ੁਰੂ / ਬੰਦ ਕਰੋ</string>
+    <string name="start">ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="stop">ਰੂਕੋ</string>
+    <string name="timer">ਟਾਈਮਰ</string>
+    <string name="stopwatch">ਸਟਾਪਵਾਚ</string>
+    <string name="clearTimeButtonText">ਸੈੱਟ ਕਰੋ</string>
+    <string name="clear">ਰੀਸੈਟ ਕਰੋ</string>
+    <string name="timerTitle">ਟਾਈਮਰ</string>
+    <string name="timerTabTitle">ਟਾਈਮਰ</string>
+    <string name="stopWatchTitle">ਸਟਾਪਵਾਚ</string>
+    <string name="add_to_fridge_from_notes_button">ਫਰਿੱਜ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="add_to_notes_from_fridge_button">ਖਰੀਦਦਾਰੀ ਸੂਚੀ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="product">ਉਤਪਾਦ</string>
+    <string name="expired">ਮਿਆਦ ਪੁੱਗ ਗਈ</string>
+    <string name="checkTheFridge">ਫਰਿੱਜ ਦੀ ਜਾਂਚ ਕਰੋ</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Ayudante de Kithen</string>
+    <string name="title_home">Recetas</string>
+    <string name="title_fridge">Refrigerador</string>
+    <string name="title_shopping_list">Lista de la compra</string>
+    <string name="title_notifications">Lámina</string>
+    <string name="add_new_item_title">Introduce el título</string>
+    <string name="add_new_item_description">Introduce una descripción</string>
+    <string name="add_new_item_add_item_text">Agregar</string>
+    <string name="add_photo_text">Foto</string>
+    <string name="add_new_item_speech_recognition">Voz</string>
+    <string name="take_picture">Toma una foto</string>
+    <string name="deleteItemCaution">¿Eliminar un producto</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="changeTimeButtonText">Iniciar/detener</string>
+    <string name="start">Comenzar</string>
+    <string name="stop">Detener</string>
+    <string name="timer">Temporizador</string>
+    <string name="stopwatch">Cronógrafo</string>
+    <string name="clearTimeButtonText">Colocar</string>
+    <string name="clear">Reiniciar</string>
+    <string name="timerTitle">Temporizador</string>
+    <string name="timerTabTitle">Temporizador</string>
+    <string name="stopWatchTitle">Cronógrafo</string>
+    <string name="add_to_fridge_from_notes_button">Añadir a la nevera</string>
+    <string name="add_to_notes_from_fridge_button">Añadir a la lista de la compra</string>
+    <string name="product">Producto</string>
+    <string name="expired">venció</string>
+    <string name="checkTheFridge">revisa la heladera</string>
+</resources>

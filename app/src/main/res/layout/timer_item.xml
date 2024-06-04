@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:layout_gravity="start">
+            <TextView
+                android:id="@+id/time_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center">
+            <Button
+                android:id="@+id/buttonStartStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_below="@id/timePicker"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/start" />
+                <Button
+                    android:id="@+id/buttonSetTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_below="@id/timePicker"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/clearTimeButtonText" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

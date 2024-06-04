@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">کمک کننده آشپزخانه</string>
+    <string name="title_home">دستور پخت</string>
+    <string name="title_fridge">یخچال</string>
+    <string name="title_shopping_list">لیست خرید</string>
+    <string name="title_notifications">بشقاب</string>
+    <string name="add_new_item_title">عنوان را وارد کنید</string>
+    <string name="add_new_item_description">توضیحات را وارد کنید</string>
+    <string name="add_new_item_add_item_text">اضافه کردن</string>
+    <string name="add_photo_text">عکس</string>
+    <string name="add_new_item_speech_recognition">صدا</string>
+    <string name="take_picture">عکس گرفتن</string>
+    <string name="deleteItemCaution">یک محصول حذف شود؟</string>
+    <string name="yes">آره</string>
+    <string name="no">خیر</string>
+    <string name="changeTimeButtonText">شروع پایان</string>
+    <string name="start">شروع کنید</string>
+    <string name="stop">متوقف کردن</string>
+    <string name="timer">تایمر</string>
+    <string name="stopwatch">کرونومتر</string>
+    <string name="clearTimeButtonText">تنظیم</string>
+    <string name="clear">بازنشانی کنید</string>
+    <string name="timerTitle">تایمر</string>
+    <string name="timerTabTitle">تایمر</string>
+    <string name="stopWatchTitle">کرونومتر</string>
+    <string name="add_to_fridge_from_notes_button">به یخچال اضافه کنید</string>
+    <string name="add_to_notes_from_fridge_button">به لیست خرید اضافه کنید</string>
+    <string name="product">تولید - محصول</string>
+    <string name="expired">منقضی شده</string>
+    <string name="checkTheFridge">یخچال را چک کنید</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ajudante de cozinha</string>
+    <string name="title_home">receitas</string>
+    <string name="title_fridge">Geladeira</string>
+    <string name="title_shopping_list">Lista de compras</string>
+    <string name="title_notifications">Placa</string>
+    <string name="add_new_item_title">Digite o título</string>
+    <string name="add_new_item_description">Insira uma descrição</string>
+    <string name="add_new_item_add_item_text">Adicionar</string>
+    <string name="add_photo_text">Foto</string>
+    <string name="add_new_item_speech_recognition">Voz</string>
+    <string name="take_picture">Tire uma foto</string>
+    <string name="deleteItemCaution">Excluir um produto?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="changeTimeButtonText">Iniciar/parar</string>
+    <string name="start">Começar</string>
+    <string name="stop">Parar</string>
+    <string name="timer">Cronômetro</string>
+    <string name="stopwatch">Cronômetro 2</string>
+    <string name="clearTimeButtonText">Definir</string>
+    <string name="clear">Reiniciar</string>
+    <string name="timerTitle">Cronômetro</string>
+    <string name="timerTabTitle">Cronômetro</string>
+    <string name="stopWatchTitle">Cronômetro 2</string>
+    <string name="add_to_fridge_from_notes_button">Adicionar à geladeira</string>
+    <string name="add_to_notes_from_fridge_button">Adicionar à lista de compras</string>
+    <string name="product">produtos</string>
+    <string name="expired">expirado</string>
+    <string name="checkTheFridge">Verifique a geladeira</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mutfak Yardımcısı</string>
+    <string name="title_home">Tarifler</string>
+    <string name="title_fridge">Buzdolabı</string>
+    <string name="title_shopping_list">Alışveriş listesi</string>
+    <string name="title_notifications">Plaka</string>
+    <string name="add_new_item_title">Başlığı girin</string>
+    <string name="add_new_item_description">Bir açıklama girin</string>
+    <string name="add_new_item_add_item_text">Eklemek</string>
+    <string name="add_photo_text">Fotoğraf</string>
+    <string name="add_new_item_speech_recognition">Ses</string>
+    <string name="take_picture">Fotoğraf çekmek</string>
+    <string name="deleteItemCaution">Bir ürün silinsin mi?</string>
+    <string name="yes">Evet</string>
+    <string name="no">HAYIR</string>
+    <string name="changeTimeButtonText">Başla dur</string>
+    <string name="start">Başlangıç</string>
+    <string name="stop">Durmak</string>
+    <string name="timer">Zamanlayıcı</string>
+    <string name="stopwatch">Kronometre</string>
+    <string name="clearTimeButtonText">Ayarlamak</string>
+    <string name="clear">Sıfırla</string>
+    <string name="timerTitle">Zamanlayıcı</string>
+    <string name="timerTabTitle">Zamanlayıcı</string>
+    <string name="stopWatchTitle">Kronometre</string>
+    <string name="add_to_fridge_from_notes_button">buzdolabına ekle</string>
+    <string name="add_to_notes_from_fridge_button">alışveriş listesine ekle</string>
+    <string name="product">Ürün</string>
+    <string name="expired">günü geçmiş</string>
+    <string name="checkTheFridge">buzdolabını kontrol et</string>
+</resources>

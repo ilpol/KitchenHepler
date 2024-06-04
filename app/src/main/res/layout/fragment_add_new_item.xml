@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameInputLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="78dp"
+
+        android:layout_marginTop="20dp"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/descriptionInputLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:background="@color/colorMain"
+
+            android:radius="20dp"
+
+            android:hint="@string/add_new_item_title"
+            app:layout_constraintBottom_toBottomOf="@+id/descriptionInputLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nameInputLabel"/>
+
+            <ImageButton
+                android:id="@+id/speechRecognitionNameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#C4876B6B"
+                android:src="@drawable/baseline_mic_24"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/descriptionInputLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="245dp"
+
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameInputLabel"
+        app:layout_constraintBottom_toTopOf="@+id/datePicker">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/descriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+
+            android:background="@color/colorMain"
+
+            android:radius="20dp"
+
+            android:hint="@string/add_new_item_description"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="44dp"
+
+
+
+            app:layout_constraintBottom_toBottomOf="@+id/descriptionInputLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/descriptionInputLabel"/>
+
+
+            <ImageButton
+                android:id="@+id/speechRecognitionDescriptionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#C4876B6B"
+                android:src="@drawable/baseline_mic_24"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+
+
+
+        android:dialogCornerRadius="100dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionInputLabel"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsWrapper"/>
+
+<!--    <LinearLayout-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:id="@+id/remindOverdueWrapper"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/timePicker"-->
+<!--        android:showDividers="middle"-->
+<!--        android:divider="@drawable/empty_tall_divider">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/remindOverdueLabel"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="TextView"-->
+<!--            tools:layout_editor_absoluteX="19dp"-->
+<!--            tools:layout_editor_absoluteY="442dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/remindOverdueWrapper"/>-->
+
+<!--        <Space-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_width="160dp"/>-->
+<!--        <CheckBox-->
+<!--            android:id="@+id/remindOverdueCheckBox"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/remindOverdueWrapper"-->
+<!--            tools:layout_editor_absoluteX="292dp"-->
+<!--            tools:layout_editor_absoluteY="434dp" />-->
+
+<!--    </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/buttonsWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datePicker"
+            android:showDividers="middle"
+            android:divider="@drawable/empty_tall_divider">
+
+<!--            <Button-->
+<!--                android:id="@+id/speechRecognitionButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/add_new_item_speech_recognition"-->
+<!--                app:boxCornerRadiusBottomEnd="100dp"-->
+<!--                app:boxCornerRadiusBottomStart="8dp"-->
+
+
+<!--                app:cornerRadius="5dp"-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/addItemButton"-->
+
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/remindOverdueWrapper"-->
+<!--                tools:layout_editor_absoluteX="150dp"-->
+<!--                tools:layout_editor_absoluteY="552dp" />-->
+
+<!--            <Space-->
+<!--                android:layout_height="20dp"-->
+<!--                android:layout_width="10dp"/>-->
+
+            <Button
+                android:id="@+id/addPhotoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_photo_text"
+
+                app:cornerRadius="5dp"
+
+
+                tools:layout_editor_absoluteX="150dp"
+                tools:layout_editor_absoluteY="552dp"
+                app:layout_constraintTop_toBottomOf="@+id/remindOverdueWrapper"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/addItemButton"
+                />
+
+            <Space
+                android:layout_height="20dp"
+                android:layout_width="100dp"/>
+
+            <Button
+                android:id="@+id/addItemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:cornerRadius="5dp"
+
+
+                android:text="@string/add_new_item_add_item_text"
+                tools:layout_editor_absoluteX="150dp"
+                tools:layout_editor_absoluteY="635dp"
+                app:layout_constraintTop_toBottomOf="@+id/remindOverdueWrapper"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+        </LinearLayout>
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:id="@+id/wrapperView"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/buttonsWrapper"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"/>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/test"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            app:srcCompat="@mipmap/ic_launcher"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/wrapperView"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"/>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Помощник на кухне</string>
+    <string name="title_home">Рецепты</string>
+    <string name="title_fridge">Холодильник</string>
+    <string name="title_shopping_list">Список покупок</string>
+    <string name="title_notifications">Плита</string>
+    <string name="add_new_item_title">Введите название</string>
+    <string name="add_new_item_description">Введите описание</string>
+    <string name="add_new_item_add_item_text">Добавить</string>
+    <string name="add_photo_text">Фото</string>
+    <string name="add_new_item_speech_recognition">Голосом</string>
+    <string name="take_picture">Cделать фото</string>
+    <string name="deleteItemCaution">Удалить продукт?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="changeTimeButtonText">Старт/стоп</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+    <string name="timer">Таймер</string>
+    <string name="stopwatch">Секундомер</string>
+    <string name="clearTimeButtonText">Задать</string>
+    <string name="clear">Сброс</string>
+    <string name="timerTitle">Таймер</string>
+    <string name="timerTabTitle">Таймер</string>
+    <string name="stopWatchTitle">Секундомер</string>
+    <string name="add_to_fridge_from_notes_button">Добавить в холодильник</string>
+    <string name="add_to_notes_from_fridge_button">Добавить в список покупок</string>
+    <string name="product">Продукт</string>
+    <string name="expired">просрочен</string>
+    <string name="checkTheFridge">Проверьте холодильник</string>
+</resources>

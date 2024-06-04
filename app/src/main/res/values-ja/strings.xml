@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">キセン・ヘルパー</string>
+    <string name="title_home">レシピ</string>
+    <string name="title_fridge">冷蔵庫</string>
+    <string name="title_shopping_list">買い物リスト</string>
+    <string name="title_notifications">皿</string>
+    <string name="add_new_item_title">タイトルを入力してください</string>
+    <string name="add_new_item_description">説明を入力してください</string>
+    <string name="add_new_item_add_item_text">追加</string>
+    <string name="add_photo_text">写真</string>
+    <string name="add_new_item_speech_recognition">声</string>
+    <string name="take_picture">写真を撮る</string>
+    <string name="deleteItemCaution">製品を削除しますか?</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="changeTimeButtonText">起動停止</string>
+    <string name="start">始める</string>
+    <string name="stop">ストップ</string>
+    <string name="timer">タイマー</string>
+    <string name="stopwatch">ストップウォッチ</string>
+    <string name="clearTimeButtonText">設定</string>
+    <string name="clear">リセット</string>
+    <string name="timerTitle">タイマー</string>
+    <string name="timerTabTitle">タイマー</string>
+    <string name="stopWatchTitle">ストップウォッチ</string>
+    <string name="add_to_fridge_from_notes_button">冷蔵庫に加える</string>
+    <string name="add_to_notes_from_fridge_button">買い物リストに追加する</string>
+    <string name="product">製品</string>
+    <string name="expired">期限切れ</string>
+    <string name="checkTheFridge">冷蔵庫をチェックしてください</string>
+</resources>

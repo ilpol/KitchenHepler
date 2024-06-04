@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">厨房帮手</string>
+    <string name="title_home">食谱</string>
+    <string name="title_fridge">冰箱</string>
+    <string name="title_shopping_list">购物清单</string>
+    <string name="title_notifications">盘子</string>
+    <string name="add_new_item_title">输入标题</string>
+    <string name="add_new_item_description">输入描述</string>
+    <string name="add_new_item_add_item_text">添加</string>
+    <string name="add_photo_text">照片</string>
+    <string name="add_new_item_speech_recognition">嗓音</string>
+    <string name="take_picture">拍个照</string>
+    <string name="deleteItemCaution">删除产品?</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="changeTimeButtonText">启动/停止</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="timer">定时器</string>
+    <string name="stopwatch">跑表</string>
+    <string name="clearTimeButtonText">放</string>
+    <string name="clear">重置</string>
+    <string name="timerTitle">定时器</string>
+    <string name="timerTabTitle">定时器</string>
+    <string name="stopWatchTitle">跑表</string>
+    <string name="add_to_fridge_from_notes_button">添加到冰箱</string>
+    <string name="add_to_notes_from_fridge_button">添加到购物清单</string>
+    <string name="product">产品</string>
+    <string name="expired">已到期</string>
+    <string name="checkTheFridge">检查冰箱</string>
+</resources>

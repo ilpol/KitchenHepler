@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pembantu Kiten</string>
+    <string name="title_home">Resep-resep</string>
+    <string name="title_fridge">Kulkas</string>
+    <string name="title_shopping_list">Dhaptar blanja</string>
+    <string name="title_notifications">Piring</string>
+    <string name="add_new_item_title">Ketik judhul</string>
+    <string name="add_new_item_description">Ketik katrangan</string>
+    <string name="add_new_item_add_item_text">Tambah</string>
+    <string name="add_photo_text">Foto</string>
+    <string name="add_new_item_speech_recognition">Swara</string>
+    <string name="take_picture">Njupuk foto</string>
+    <string name="deleteItemCaution">Mbusak produk?</string>
+    <string name="yes">Ya wis</string>
+    <string name="no">Ora</string>
+    <string name="changeTimeButtonText">Mulai/mandheg</string>
+    <string name="start">Miwiti</string>
+    <string name="stop">mandeg</string>
+    <string name="timer">Timer</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="clearTimeButtonText">Set</string>
+    <string name="clear">Reset</string>
+    <string name="timerTitle">Timer</string>
+    <string name="timerTabTitle">Timer</string>
+    <string name="stopWatchTitle">Stopwatch</string>
+    <string name="add_to_fridge_from_notes_button">Tambah menyang kulkas</string>
+    <string name="add_to_notes_from_fridge_button">Tambah menyang dhaptar blanja</string>
+    <string name="product">Produk</string>
+    <string name="expired">kadaluwarsa</string>
+    <string name="checkTheFridge">Priksa kulkas</string>
+</resources>

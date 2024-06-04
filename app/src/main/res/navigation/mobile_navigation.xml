@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_home"-->
+<!--        android:name="com.orangeskystorm.kithenhelper.ui.home.HomeFragment"-->
+<!--        android:label="@string/title_home"-->
+<!--        tools:layout="@layout/fragment_home" />-->
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="com.orangeskystorm.kithenhelper.ui.notes.NotesFragment"
+        android:label="@string/title_shopping_list"
+        tools:layout="@layout/fragment_notes">
+        <action
+            android:id="@+id/action_navigation_notes_to_notes_info"
+            app:destination="@id/navigation_notes_info" />
+        <action
+            android:id="@+id/action_navigation_notes_to_add_new_note_item"
+            app:destination="@id/navigation_add_notes_item" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_add_notes_item"
+        android:name="com.orangeskystorm.kithenhelper.ui.addNewNoteItemScreen.AddNewNoteItemScreen"
+        android:label="@string/title_shopping_list"
+        tools:layout="@layout/fragment_add_new_note_item">
+        <action
+            android:id="@+id/action_navigation_add_new_note_item_to_notes"
+            app:destination="@id/navigation_notes" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_notes_info"
+        android:name="com.orangeskystorm.kithenhelper.ui.noteItemInfoScreen.NoteItemInfoScreen"
+        android:label="@string/title_shopping_list"
+        tools:layout="@layout/fragment_note_item_info">
+        <action
+            android:id="@+id/action_navigation_notes_info_to_add_notes_item"
+            app:destination="@id/navigation_add_notes_item" />
+        <action
+            android:id="@+id/action_navigation_notes_info_to_navigation_notes"
+            app:destination="@id/navigation_notes" />
+        <action
+            android:id="@+id/action_navigation_notes_info_to_add_new_item"
+            app:destination="@id/add_new_item" />
+    </fragment>
+    <fragment
+        android:id="@+id/add_new_item"
+        android:name="com.orangeskystorm.kithenhelper.ui.addNewItem.AddNewItemFragment"
+        android:label="@string/title_fridge"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_add_new_item_to_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.orangeskystorm.kithenhelper.ui.dashboard.DashboardFragment"
+        android:label="@string/title_fridge"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_navigation_dashboard_to_fridge_item_info"
+            app:destination="@id/navigation_fragment_fridge_item_info" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_add_new_item"
+            app:destination="@id/add_new_item" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.orangeskystorm.kithenhelper.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications">
+        <action
+            android:id="@+id/action_fragment_fnotifications_to_set_time"
+            app:destination="@id/navigation_set_time" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_set_time"
+        android:name="com.orangeskystorm.kithenhelper.ui.notifications.SetTimeFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_set_time" />
+    <fragment
+        android:id="@+id/navigation_fragment_fridge_item_info"
+        android:name="com.orangeskystorm.kithenhelper.ui.fridgeItemInfoScreen.FridgeItemInfoScreen"
+        android:label="@string/title_fridge"
+        tools:layout="@layout/fragment_fridge_item_info">
+        <action
+            android:id="@+id/action_fragment_fridge_item_info_to_dashboard"
+            app:destination="@id/navigation_dashboard" />
+        <action
+            android:id="@+id/action_fragment_fridge_item_info_to_add_new_item"
+            app:destination="@id/add_new_item" />
+        <action
+            android:id="@+id/action_fragment_fridge_item_info_to_add_notes_item"
+            app:destination="@id/navigation_add_notes_item" />
+    </fragment>
+</navigation>

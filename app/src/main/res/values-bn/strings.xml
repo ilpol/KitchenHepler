@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">কিথেন হেল্পার</string>
+    <string name="title_home">রেসিপি</string>
+    <string name="title_fridge">ফ্রিজ</string>
+    <string name="title_shopping_list">কেনাকাটা তালিকা</string>
+    <string name="title_notifications">প্লেট</string>
+    <string name="add_new_item_title">শিরোনাম লিখুন</string>
+    <string name="add_new_item_description">একটি বিবরণ লিখুন</string>
+    <string name="add_new_item_add_item_text">যোগ করুন</string>
+    <string name="add_photo_text">ছবি</string>
+    <string name="add_new_item_speech_recognition">ভয়েস</string>
+    <string name="take_picture">একটি ছবি তুলুন</string>
+    <string name="deleteItemCaution">একটি পণ্য মুছে ফেলবেন?</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="changeTimeButtonText">আপনি সব</string>
+    <string name="start">শুরু করুন</string>
+    <string name="stop">থামো</string>
+    <string name="timer">টাইমার</string>
+    <string name="stopwatch">স্টপওয়াচ</string>
+    <string name="clearTimeButtonText">সেট</string>
+    <string name="clear">রিসেট</string>
+    <string name="timerTitle">টাইমার</string>
+    <string name="timerTabTitle">টাইমার</string>
+    <string name="stopWatchTitle">স্টপওয়াচ</string>
+    <string name="add_to_fridge_from_notes_button">ফ্রিজে যোগ করুন</string>
+    <string name="add_to_notes_from_fridge_button">কেনাকাটার তালিকায় যোগ করুনt</string>
+    <string name="product">পণ্য</string>
+    <string name="expired">মেয়াদোত্তীর্ণ</string>
+    <string name="checkTheFridge">ফ্রিজ চেক করুন</string>
+</resources>

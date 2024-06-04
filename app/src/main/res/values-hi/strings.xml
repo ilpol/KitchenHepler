@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">किथेन हेल्पर</string>
+    <string name="title_home">व्यंजनों</string>
+    <string name="title_fridge">फ़्रिज</string>
+    <string name="title_shopping_list">खरीदारी की सूची</string>
+    <string name="title_notifications">तश्तरी</string>
+    <string name="add_new_item_title">शीर्षक दर्ज करें</string>
+    <string name="add_new_item_description">विवरण दर्ज करें</string>
+    <string name="add_new_item_add_item_text">जोड़ना</string>
+    <string name="add_photo_text">तस्वीर</string>
+    <string name="add_new_item_speech_recognition">आवाज़</string>
+    <string name="take_picture">एक तस्वीर लें</string>
+    <string name="deleteItemCaution">कोई उत्पाद हटाएँ?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="changeTimeButtonText">शुरू करें रोकें</string>
+    <string name="start">शुरू</string>
+    <string name="stop">रुकना</string>
+    <string name="timer">घड़ी</string>
+    <string name="stopwatch">स्टॉपवॉच देखनी</string>
+    <string name="clearTimeButtonText">तय करना</string>
+    <string name="clear">रीसेट</string>
+    <string name="timerTitle">घड़ी</string>
+    <string name="timerTabTitle">घड़ी</string>
+    <string name="stopWatchTitle">स्टॉपवॉच देखनी</string>
+    <string name="add_to_fridge_from_notes_button">फ्रिज में डालें</string>
+    <string name="add_to_notes_from_fridge_button">खरीदारी सूची में जोड़ें</string>
+    <string name="product">उत्पाद</string>
+    <string name="expired">खत्म हो चुका</string>
+    <string name="checkTheFridge">फ्रिज की जाँच करें</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Aide Kithen</string>
+    <string name="title_home">Recettes</string>
+    <string name="title_fridge">Réfrigérateur</string>
+    <string name="title_shopping_list">Liste de courses</string>
+    <string name="title_notifications">Plaque</string>
+    <string name="add_new_item_title">Entrez le titre</string>
+    <string name="add_new_item_description">Entrez une description</string>
+    <string name="add_new_item_add_item_text">Ajouter</string>
+    <string name="add_photo_text">Photo</string>
+    <string name="add_new_item_speech_recognition">Voix</string>
+    <string name="take_picture">Prendre une photo</string>
+    <string name="deleteItemCaution">Supprimer un produit?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="changeTimeButtonText">Commencer arrêter</string>
+    <string name="start">Commencer</string>
+    <string name="stop">Arrêt</string>
+    <string name="timer">Minuteur</string>
+    <string name="stopwatch">Chronomètre</string>
+    <string name="clearTimeButtonText">Ensemble</string>
+    <string name="clear">Réinitialiser</string>
+    <string name="timerTitle">Minuteur</string>
+    <string name="timerTabTitle">Minuteur</string>
+    <string name="stopWatchTitle">Chronomètre</string>
+    <string name="add_to_fridge_from_notes_button">Ajouter au réfrigérateur</string>
+    <string name="add_to_notes_from_fridge_button">Ajouter à la liste de courses</string>
+    <string name="product">Produit</string>
+    <string name="expired">expiré</string>
+    <string name="checkTheFridge">Vérifiez le réfrigérateur</string>
+</resources>

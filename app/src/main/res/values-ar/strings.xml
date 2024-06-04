@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">كيثن هيلبر</string>
+    <string name="title_home">وصفات</string>
+    <string name="title_fridge">ثلاجة</string>
+    <string name="title_shopping_list">قائمة التسوق</string>
+    <string name="title_notifications">طبق</string>
+    <string name="add_new_item_title">أدخل العنوان</string>
+    <string name="add_new_item_description">أدخل وصفًا</string>
+    <string name="add_new_item_add_item_text">يضيف</string>
+    <string name="add_photo_text">صورة</string>
+    <string name="add_new_item_speech_recognition">صوت</string>
+    <string name="take_picture">التقاط صورة</string>
+    <string name="deleteItemCaution">حذف منتج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="changeTimeButtonText">بدء توقف</string>
+    <string name="start">يبدأ</string>
+    <string name="stop">قف</string>
+    <string name="timer">الموقت</string>
+    <string name="stopwatch">ساعة التوقيف</string>
+    <string name="clearTimeButtonText">تعيين</string>
+    <string name="clear">إعادة ضبط</string>
+    <string name="timerTitle">الموقت</string>
+    <string name="timerTabTitle">الموقت</string>
+    <string name="stopWatchTitle">ساعة التوقيف</string>
+    <string name="add_to_fridge_from_notes_button">أضفه إلى الثلاجة</string>
+    <string name="add_to_notes_from_fridge_button">أضف إلى قائمة التسوق</string>
+    <string name="product">منتج</string>
+    <string name="expired">منتهي الصلاحية</string>
+    <string name="checkTheFridge">افحص الثلاجة</string>
+</resources>

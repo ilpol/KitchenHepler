@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kithen Helper</string>
+    <string name="title_home">Recipes</string>
+    <string name="title_fridge">Fridge</string>
+    <string name="title_shopping_list">Shopping list</string>
+    <string name="title_notifications">Plate</string>
+    <string name="add_new_item_title">Enter the title</string>
+    <string name="add_new_item_description">Enter a description</string>
+    <string name="add_new_item_add_item_text">Add</string>
+    <string name="add_photo_text">Photo</string>
+    <string name="add_new_item_speech_recognition">Voice</string>
+    <string name="take_picture">Take a photo</string>
+    <string name="deleteItemCaution">Delete a product?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="changeTimeButtonText">Start/stop</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="timer">Timer</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="clearTimeButtonText">Set</string>
+    <string name="clear">Reset</string>
+    <string name="timerTitle">Timer</string>
+    <string name="timerTabTitle">Timer</string>
+    <string name="stopWatchTitle">Stopwatch</string>
+    <string name="add_to_fridge_from_notes_button">Add to fridge</string>
+    <string name="add_to_notes_from_fridge_button">Add to shopping list</string>
+    <string name="product">Product</string>
+    <string name="expired">expired</string>
+    <string name="checkTheFridge">Check the fridge</string>
+</resources>

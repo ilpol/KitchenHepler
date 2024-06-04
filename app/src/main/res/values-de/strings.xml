@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kithen-Helfer</string>
+    <string name="title_home">Rezepte</string>
+    <string name="title_fridge">Kühlschrank</string>
+    <string name="title_shopping_list">Einkaufsliste</string>
+    <string name="title_notifications">Platte</string>
+    <string name="add_new_item_title">Geben Sie den Titel ein</string>
+    <string name="add_new_item_description">Geben Sie eine Beschreibung ein</string>
+    <string name="add_new_item_add_item_text">Hinzufügen</string>
+    <string name="add_photo_text">Foto</string>
+    <string name="add_new_item_speech_recognition">Stimme</string>
+    <string name="take_picture">Mach ein Foto</string>
+    <string name="deleteItemCaution">Ein Produkt löschen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="changeTimeButtonText">Start/stop</string>
+    <string name="start">Start</string>
+    <string name="stop">Stoppen</string>
+    <string name="timer">Timer</string>
+    <string name="stopwatch">Stoppuhr</string>
+    <string name="clearTimeButtonText">Satz</string>
+    <string name="clear">Zurücksetzen</string>
+    <string name="timerTitle">Timer</string>
+    <string name="timerTabTitle">Timer</string>
+    <string name="stopWatchTitle">Stoppuhr</string>
+    <string name="add_to_fridge_from_notes_button">In den Kühlschrank geben</string>
+    <string name="add_to_notes_from_fridge_button">Auf die Merkliste</string>
+    <string name="product">Produkt</string>
+    <string name="expired">abgelaufen</string>
+    <string name="checkTheFridge">Überprüfen Sie den Kühlschrank</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kithen Helper</string>
+    <string name="title_home">Ricette</string>
+    <string name="title_fridge">Frigo</string>
+    <string name="title_shopping_list">Lista della spesa</string>
+    <string name="title_notifications">Piatto</string>
+    <string name="add_new_item_title">Inserisci il titolo</string>
+    <string name="add_new_item_description">Inserisci una descrizione</string>
+    <string name="add_new_item_add_item_text">Aggiungere</string>
+    <string name="add_photo_text">Foto</string>
+    <string name="add_new_item_speech_recognition">Voce</string>
+    <string name="take_picture">Fare una foto</string>
+    <string name="deleteItemCaution">Eliminare un prodotto?</string>
+    <string name="yes">SÌ</string>
+    <string name="no">NO</string>
+    <string name="changeTimeButtonText">Avvio/arresto</string>
+    <string name="start">Inizio</string>
+    <string name="stop">Fermare</string>
+    <string name="timer">Timer</string>
+    <string name="stopwatch">Cronometro</string>
+    <string name="clearTimeButtonText">Impostato</string>
+    <string name="clear">Ripristina</string>
+    <string name="timerTitle">Timer</string>
+    <string name="timerTabTitle">Timer</string>
+    <string name="stopWatchTitle">Cronometro</string>
+    <string name="add_to_fridge_from_notes_button">Aggiungi al frigorifero</string>
+    <string name="add_to_notes_from_fridge_button">Aggiungi alla lista della spesa</string>
+    <string name="product">Prodotto</string>
+    <string name="expired">scaduto</string>
+    <string name="checkTheFridge">Controlla il frigorifero</string>
+</resources>
